@@ -1,0 +1,7 @@
+a=int(input()); b=int(input())
+l=max(a,b)
+while True:
+    if l%a==0 and l%b==0:
+        print(l)
+        break
+    l+=1

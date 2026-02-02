@@ -1,0 +1,5 @@
+a = int(input())
+if a < 1000: print(a)
+elif a < 3000: print(a - a*10//100)
+elif a < 5000: print(a - a*20//100)
+else: print(a - a*30//100)
