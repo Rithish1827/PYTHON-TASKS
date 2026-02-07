@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+t = (a, b)
+t = (t[1], t[0])
+print(t)

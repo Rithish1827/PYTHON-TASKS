@@ -1,0 +1,8 @@
+n = int(input())
+lst = []
+for _ in range(n):
+    lst.append(int(input()))
+k = int(input())
+
+k = k % n
+print(lst[-k:] + lst[:-k])
